@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Exercicio 02</title>
+</head>
+<body>
+    <header id="header">
+        <img class="logo" src="./img/Logo-com-slogan.png">
+    </header>
+    <br><br>
+    <main>
+        <h1>Operação Tapa Buraco</h1>
+
+        <div class="formulario">
+            <form action="#" method="post" >
+                <fieldset>
+                    <legend>Formulário de envio</legend>
+
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                        <br><br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+                        <br><br>
+                    <label for="situação">Situação</label>
+                    <select id="situacao" name="situacao">
+                        <option value="">-- selecione --</option>
+                        <option value="aprovado"></option>
+                        <option value="reprovado"></option>
+                    </select>
+                        <br><br>
+                    <label for="obs">Observações</label>
+                    <textarea id="obs" name="obs" rows="3" placeholder="Observações"></textarea>
+                        <br><br>
+                    <div class="container botoes">
+                        <button type="submit" class="botao formulario">Enviar</button>
+                        <button type="reset" class="botao formulario">Limpar</button>
+                    </div>
+                </fieldset>
+            </form>          
+        </div><br><br>
+        
+        <div>
+            <div class="container float">
+                <div id="coluna01">
+                    <div class="container coluna01">
+                        <div class="servico">PORTAL<br>SERVIDOR</div>
+                        <div class="servico">DIARIO<br>OFICIAL</div>
+                    </div>
+                    <div class="container coluna01">
+                        <div class="servico">VIGILANCIA<br>SAUDE</div>
+                        <div class="servico">CONSULTAR<br>EXAME</div>
+                    </div>
+                </div>
+                <div id="coluna02">
+                    <div class="servico2">VIGILANCIA SANITÁRIA</div>
+                    <div class="servico2">PORTAL DO CONTRIBUINTE</div>
+                    <div class="servico2">LISTA DE ESCOLAS</div>
+                    <div class="servico2">IPTU</div>
+                    <div class="servico2">EDITAIS E PUBLICAÇÕES</div>
+                </div>
+            </div>
+            <!-- <div class="container botao">
+                <button class="botao ultimate">Botão</button>
+            </div> -->
+            
+        </div>
+        
+
+        
+    </main>
+    <br><br><br>
+     <footer>
+        <nav>
+            <a href="/html/">Portal do contribuinte</a> |
+            <a href="/css/">IPTU</a> |
+            <a href="/js/">Nota Fiscal</a> |
+            <a href="/python/">Portal Transparencia</a>
+        </nav>
+        <h1>CAMARAGIBE: A CIDADE DO TRABALHO</h1>
+    </footer>
+</body>
+</html>

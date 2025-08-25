@@ -1,0 +1,77 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    height: 60px;
+    background-color: rgb(79, 79, 238);
+}
+.logo{
+    max-width: 500px;
+    display: block; 
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    display: block;    
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.sumario{
+    width: 80%;
+    height: 100%;
+    display: block;    
+    margin: 0 auto;
+}
+h1{
+    color: rgb(43, 43, 139);
+    font-size: 0.8cm;
+    font-weight: bolder;
+}
+p{
+    color: rgb(20, 20, 20);
+    font-size: 0.5cm;
+}
+
+footer{
+    height: 120px;
+    background-color: rgb(79, 79, 238);
+    padding: 5px 0px 30px 0px;
+}
+.lista-ul{
+    padding: 5px 0px 0px 0px;
+    width: 80%;
+    display: block;    
+    margin: 0 auto;
+    color: aliceblue;
+    list-style: none;
+}
+.interacao{
+    width: 80%;
+    display: block;    
+    margin: 0 auto;
+}
+button{
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    background-color:rgb(43, 43, 139) ;
+    color: aliceblue;
+}
+#container-botao{
+    padding: 0px 0px 0px 50px;
+}
+#link{
+    padding: 0px 0px 0px 200px;
+}
+.titulo.ul{
+    color: aliceblue;
+}
+.itens.ul{
+    color: aliceblue;
+}
+ul{
+    color: aliceblue;
+}
